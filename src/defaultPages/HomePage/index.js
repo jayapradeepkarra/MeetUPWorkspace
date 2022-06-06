@@ -16,7 +16,7 @@ const HomePage = (props) => {
       <SafeAreaView>
         <View style={styles.wrapperStyle}>
           <Text style={styles.titleStyle}>
-            WELCOME..TO..MEETUP..!
+            WELCOME..TO.VVIT MeetUP ...!
           </Text>
           <Text style={styles.subTitleStyle}>
             SELECT LAUNCH OPTIONS..!
