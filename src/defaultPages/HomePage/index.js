@@ -26,11 +26,11 @@ const HomePage = (props) => {
             <View style={styles.boxStyle}>
               <View style={styles.boxContent}>
                 <View style={styles.titleWrapperStyle}>
-                  <Text style={styles.componentTitleStyle}>MEETUPUI</Text>
+                  <Text style={styles.componentTitleStyle}>MEETUP_UI</Text>
                 </View>
                 <View style={styles.descWrapperStyle}>
                   <Text>
-                    The <Text style={styles.descTextColor}>MEETUPUI</Text>{' '}
+                    The <Text style={styles.descTextColor}>MEETUP_UI</Text>{' '}
                     component launches a fully working chat application.
                   </Text>
                 </View>
@@ -230,3 +230,4 @@ const mapStateToProps = ({reducer}) => {
 };
 
 export default connect(mapStateToProps)(HomePage);
+//comment
